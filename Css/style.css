@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+	font-family: "agency fb" ;
+	font-size: 30px ;
+}
+
+body {
+    background-image: url(Images/Background/Night.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+
+}
+
+.QuizBack {
+    background: url(Images/Background/Cryptocurrency-Wallpaper-Dark.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+
+.adjustment-class {
+    min-height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*-------------------------------------------*/
+/*            ID menu set up                 */
+/*-------------------------------------------*/
+#menu {
+	width: 100%;
+	padding: 0 1.5% 0 1.5%;
+    text-align: center;
+	font-size: 120% ;
+    border-bottom: 0.3em solid #FFFFFF
+}
+
+#menu ul li {
+	display: inline-block;
+	padding: 0.1em 2.1em 0.1em 2.1em;
+}
+
+#menu ul li a {
+		color: #FFFFFF;
+		font-size: 70%;
+        text-decoration: none;
+}
+
+/*-------------------------------------------*/
+/*            Header set up                  */
+/*-------------------------------------------*/
+
+.header {
+	width: 100%;
+	padding: 3%; 
+	border-top: 0.3em solid #FFFFFF;
+	display: inline-block;
+    float: right;
+    margin: 0.5%;
+    border-bottom: 0.3em solid #FFFFFF;
+}
+
+.header h1 {
+	font-size: 200%; 
+	color: #FFFFFF ;
+    text-align: center;
+}
+#menu ul li a:link 
+#menu ul li a:visited {
+	color: #fa1515;
+}
+
+#menu ul li a:hover {
+	color: #01AF1E;
+}
+
+/*-------------------------------------------*/
+/*       Index page content set up           */
+/*-------------------------------------------*/
+.MainCountryD {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.MainCountryD img {
+    transform: scale(0.9);
+    transform: scale(0.9);
+    height: auto;
+}
+
+.MainCountryD img:active,
+.MainCountryD img:hover {
+    transform: scale(1.03);
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, transform 0.3s;
+}
+
+.MainCountryD ul li a:hover {
+	color: #01AF1E;
+}
+
+.WelcomeH {
+    display: inline-block;
+    margin-bottom: 1%;
+    text-align: center;
+    color: #FFFFFF;
+    float: left;
+    width: 100%
+}
+
+.Index-flag {
+    display: inline-block;
+    width: 32%;
+    float: left;
+}
+.Index-flag a {
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+/*-------------------------------------------*/
+/*       Footer set up                       */
+/*-------------------------------------------*/
+
+#footer {
+	width: 100%;
+	background-color: #FFFFFF ;
+	border-top: 0.3em solid #000000;
+	border-bottom: 0.3em solid #000000;
+}
+
+#footer p {
+    font-size: 70%;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.FooterP {
+    width: 40%;
+    float: left;
+}
+
+.SocialP {
+    width: 59%;
+    float: right;
+    text-align: right;
+}
+
+.SocialP ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.SocialP ul li a {
+    color: #000000;
+}
+
+/*-------------------------------------------*/
+/*  Social media footer color link set up    */
+/*-------------------------------------------*/
+
+.Facebook a:active, 
+.Facebook a:hover {
+    color: #3b5998
+}
+
+.Twiter a:active,
+.Twiter a:hover {
+    color: #55acee;
+}
+
+.Youtube a:active,
+.Youtube a:hover {
+    color: #b31217;
+}
+
+.Instagram a:active,
+.Instagram a:hover {
+    color: #517fa4;
+}
+
+/*-------------------------------------------*/
+/*        Currency page set up layout        */
+/*-------------------------------------------*/
+
+.ExcDesc {
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 10%;
+}
+
+.ExcLook {
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    padding-left: 33%;
+    margin-top: 0.9em;
+}
+
+/*-------------------------------------------*/
+/*         USA quiz page set up layout       */
+/*-------------------------------------------*/
+
+
+#Quizz {
+    color: #FFFFFF;
+    text-align: center;
+    width: 60%;
+    display: inline-block;
+}
+
+/* #Quizz h3 {
+    border-top: 0.2em solid #FFFFFF;
+}
+
+#Quizz p {
+    border-top: 0.2em solid #FFFFFF;
+}
+*/
+#MultiC {
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 0.3%;
+}
+
+#button {
+    font-size: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0.5%;
+    margin: 0.9%;
+}
+
+#after-submit {
+    visibility: hidden;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+#Message {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.EmtyDiv {
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+
+/*-------------------------------------------*/
+/*         Coutry page set up layout            */
+/*-------------------------------------------*/
+
+
+.LeftDesc {
+    color: #FFFFFF;
+ /*   display: inline-block; */
+    width: 58%;
+    margin-top: 3%;
+    margin-left: 4%;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+}
+
+.LeftDesc h3 {
+    color: #FFFFFF;
+}
+
+.IframeVid {
+ /*   display: inline-block; */
+    color: #FFFFFF;
+    float: left;
+    width: 38%;
+    margin-top: 3%;
+}
+
+.IframeVid iframe {
+    width: 20em;
+    height: 12em;
+}
+.CountryLink a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.CountryLink a:active, 
+.CountryLink a:visited {
+    color: #FFFFFF;
+}
+.CountryLink a:hover {
+    color: #01AF1E;
+}
+
+.CountryLink {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}

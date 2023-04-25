@@ -1,0 +1,29 @@
+/*----media section--*/
+
+@media all and ( max-width 768px) {
+	header{
+		text-align: center;
+	}
+	nav{
+		text-align: center;
+		}
+		#content {
+			width: 94%;
+			padding: 3%;
+		}
+		#sidebar {
+			width: 94%;
+			padding: 3%;
+			border-top: 3px solid #4286f4;
+		}
+	}
+	
+}
+@media all and ( max-width 768px) {
+	nav ul li {
+		display: block;
+		width: 94%;
+		padding: 1.5%;
+	}
+}
+
